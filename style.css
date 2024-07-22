@@ -247,10 +247,10 @@ button:hover{
     }
     .player-pic{
         background-size: contain;
-        width: 1000%;
+        width: 80%;
         height: 700px;
         top: -40%;
-        left: 20%;
+        margin-left: auto;
     }
     .power{
         transform: translateY(800px);
@@ -271,8 +271,13 @@ button:hover{
         background-size: 50%;
         background-repeat: no-repeat;
     }
+    button{
+        position: fixed;
+        scale: .8;
+    }
+
     button.left{
         top: 90%;
-        transform: translate(-30px,-15px);
+        transform: translate(-30px,-25px);
     }
 }
